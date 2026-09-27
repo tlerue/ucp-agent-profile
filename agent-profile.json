@@ -11,7 +11,8 @@
           "endpoint": "https://tlerue.github.io/ucp-agent-profile/"
         }
       ]
-    }
+    },
+    "payment_handlers": {}
   },
   "name": "courses-recettes",
   "description": "Agent familial de courses et recettes pour le drive Le Drivé Tout Nu (beauzelle). Catalogue, propositions de recettes, panier uniquement apres validation humaine. Jamais de paiement.",
