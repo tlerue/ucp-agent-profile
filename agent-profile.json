@@ -7,12 +7,34 @@
           "version": "2026-08-25",
           "spec": "https://ucp.dev/2026-08-25/specification/overview/",
           "transport": "mcp",
-          "schema": "https://ucp.dev/2026-08-25/services/shopping/mcp.openrpc.json",
-          "endpoint": "https://tlerue.github.io/ucp-agent-profile/"
+          "schema": "https://ucp.dev/2026-08-25/services/shopping/mcp.openrpc.json"
         }
       ]
     },
-    "payment_handlers": {}
+    "payment_handlers": {},
+    "capabilities": {
+      "dev.ucp.shopping.catalog.search": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_search.json"
+        }
+      ],
+      "dev.ucp.shopping.catalog.lookup": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/catalog/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/catalog_lookup.json"
+        }
+      ],
+      "dev.ucp.shopping.cart": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/shopping/cart/",
+          "schema": "https://ucp.dev/2026-08-25/schemas/shopping/cart.json"
+        }
+      ]
+    }
   },
   "name": "courses-recettes",
   "description": "Agent familial de courses et recettes pour le drive Le Drivé Tout Nu (beauzelle). Catalogue, propositions de recettes, panier uniquement apres validation humaine. Jamais de paiement.",
