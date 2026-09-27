@@ -1,7 +1,19 @@
 {
-  "ucp": { "version": "2026-08-25" },
+  "ucp": {
+    "version": "2026-08-25",
+    "services": {
+      "dev.ucp.shopping": [
+        {
+          "version": "2026-08-25",
+          "spec": "https://ucp.dev/2026-08-25/specification/overview/",
+          "transport": "mcp",
+          "schema": "https://ucp.dev/2026-08-25/services/shopping/mcp.openrpc.json",
+          "endpoint": "https://tlerue.github.io/ucp-agent-profile/"
+        }
+      ]
+    }
+  },
   "name": "courses-recettes",
   "description": "Agent familial de courses et recettes pour le drive Le Drivé Tout Nu (beauzelle). Catalogue, propositions de recettes, panier uniquement apres validation humaine. Jamais de paiement.",
-  "capabilities": { "transport": "mcp" },
-  "contact": "votre-email@exemple.com"
+  "contact": "tlerue@users.noreply.github.com"
 }
