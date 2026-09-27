@@ -1,0 +1,7 @@
+{
+  "ucp": { "version": "2026-08-25" },
+  "name": "courses-recettes",
+  "description": "Agent familial de courses et recettes pour le drive Le Drivé Tout Nu (beauzelle). Catalogue, propositions de recettes, panier uniquement apres validation humaine. Jamais de paiement.",
+  "capabilities": { "transport": "mcp" },
+  "contact": "votre-email@exemple.com"
+}
